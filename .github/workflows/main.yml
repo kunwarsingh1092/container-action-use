@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/container-action@v1
+      uses: kunwarsingh1092/container-action@v1
       with:
         who-to-greet: 'Kunwar the Crazy'
     # Use the output from the `hello` step
